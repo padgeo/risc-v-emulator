@@ -1,0 +1,14 @@
+[package]
+name = "rv-tui"
+description = "Ratatui frontend for the RISC-V time-travel debugger."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+ratatui.workspace = true
+rv-core.workspace = true
+
+[lints]
+workspace = true

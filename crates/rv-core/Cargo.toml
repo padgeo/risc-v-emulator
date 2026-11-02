@@ -1,0 +1,10 @@
+[package]
+name = "rv-core"
+description = "RV32I core of the time-travel debugger: decoder, machine state and history. Performs no I/O."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
